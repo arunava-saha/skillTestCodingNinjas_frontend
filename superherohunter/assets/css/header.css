@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #d2ef11;
+    color: #dddfa6;
+}
+
+a {
+    text-decoration: none;
+    color: #f2d299;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: rgb(93, 147, 147);
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    padding: 5px;
+    color: #f3f3f3;
+    margin-left: 10px;
+}
+
+.fav {
+    margin: 10px;
+}
+
+.fav a {
+    word-spacing: 10px;
+    margin: 10px;
+}
+
+.fav a:hover {
+    color: #000;
+}
+
+#like-button {
+    color: rgb(255, 2, 2);
+    font-size: 2rem;
+}
+
+#dislike {
+    color: #ddd;
+    font-size: 2rem;
+}
